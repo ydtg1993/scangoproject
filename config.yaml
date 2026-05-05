@@ -1,0 +1,21 @@
+aimDir: "E:/py-project/tg_cloud"
+output: output.txt
+
+exts:
+  - .go
+  - .yaml
+  - .ts
+  - .less
+  - .py
+ # - .qss
+
+skipDirs:
+  - ".git"
+  - "node_modules"
+  - ".idea"
+  - "test"
+  - "dist"
+  - ".gitignore"
+  - "venv"
+  - "__pycache__"
+  - ".npm-cache"
